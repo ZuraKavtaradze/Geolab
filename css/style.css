@@ -38,4 +38,16 @@ header::after {
 	clear: both;
 }
 
+.main-text {
+	font-family: "BPG Irubaqidze", sans-serif;
+	font-size: 25px;
+	color: green;
+}
+
+.header-question {
+	font-family: "BPG Irubaqidze", sans-serif;
+	font-size: 36px;
+	color: black;
+}
+
 
