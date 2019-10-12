@@ -28,4 +28,14 @@ li {
 	margin:15px;
 }
 
+.wall {
+	background-color: #b3ffff;
+}
+
+header::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
 
