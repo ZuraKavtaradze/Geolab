@@ -14,29 +14,31 @@
 
 		<body class="container-fluid"> 
 			
-			<header>				
-				<nav>
-					<a href="#"> <img src="img/logo.png" class="d-inline-block img-fluid logo"></a>
-
-					<ul class="navbar">
-						<li>
-							<a href="about.html" class="d-inline-block"> <h6> ჩვენს შესახებ </h6> </a>
-						</li>
-						<li>
-							<a href="lecturers.html" class="d-inline-block"> <h6> ლექტორები </h6> </a>
-						</li>
-						<li>
-							<a href="resources.html" class="d-inline-block"> <h6> რესურსები </h6> </a>
-						</li>
-						<li>
-							<a href="syllabus.html" class="d-inline-block"> <h6> სილაბუსი </h6> </a>
-						</li>
-					</ul>
+			<header>
+			<a href="#"> <img src="img/logo.png" class="d-inline-block img-fluid logo"></a>				
+				<nav class="navbar navbar-expand-lg navbar-light">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				    <div class="navbar-nav">
+				      <a class="nav-item nav-link text-info" href="about.html"><h6> ჩვენს შესახებ </h6> <span class="sr-only">(current)</span></a>
+				      <a class="nav-item nav-link text-info" href="lecturers.html"><h6> ლექტორები </h6></a>
+				      <a class="nav-item nav-link text-info" href="resources.html"><h6> რესურსები </h6></a>
+				      <a class="nav-item nav-link text-info" href="syllabus.html" tabindex="-1" aria-disabled="true"><h6>სილაბუსი </h6></a>
+				    </div>
+				  </div>
 				</nav>
+
+
+
 			</header>
 
-			<script type="text/javascript" src="js/bootstrap.js"> </script>
-			<script type="text/javascript" src="js/bootstrap.bundle.js"> </script>
+
+			<!-- there were unexpected problems while adding js with the relative path -->
+				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		</body>
 
 	</html>
